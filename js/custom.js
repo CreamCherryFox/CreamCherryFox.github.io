@@ -138,21 +138,6 @@ var projectData =
   },
   {
     "projectNum": "6",
-    "projectName": "URS",
-    "projectWork": "APP UI / IoT Gam",
-    "projectSliderPicTotal": 5,
-    "projectFirstImage": "images/URSPic01.png",
-    "sliderPicArray": ['images/URSPic01.png', 'images/URSPic02.png', 'images/URSPic03.png', 'images/URSPic04.png', 'images/URSPic05.png'],
-    "projectDescription": "",
-    "porjectSkill": "Skill: ",
-    "onlineLink": "",
-    "onlineLinkTitle": "",
-    "linkDomain": "",
-    "onlineLinkTitle02": "",
-    "linkDomain02": ""
-  },
-  {
-    "projectNum": "7",
     "projectName": "Kishu An",
     "projectWork": "Web E-book",
     "projectSliderPicTotal": 5,
@@ -163,6 +148,21 @@ var projectData =
     "onlineLink": "Online: ",
     "onlineLinkTitle": "Kishu An E-Book",
     "linkDomain": "http://www.kklabs.tw/ebook/ks01",
+    "onlineLinkTitle02": "",
+    "linkDomain02": ""
+  },
+  {
+    "projectNum": "7",
+    "projectName": "URS",
+    "projectWork": "APP UI / IoT Gam",
+    "projectSliderPicTotal": 5,
+    "projectFirstImage": "images/URSPic01.png",
+    "sliderPicArray": ['images/URSPic01.png', 'images/URSPic02.png', 'images/URSPic03.png', 'images/URSPic04.png', 'images/URSPic05.png'],
+    "projectDescription": "",
+    "porjectSkill": "Skill: ",
+    "onlineLink": "",
+    "onlineLinkTitle": "",
+    "linkDomain": "",
     "onlineLinkTitle02": "",
     "linkDomain02": ""
   },

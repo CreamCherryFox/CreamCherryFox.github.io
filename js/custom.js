@@ -155,11 +155,11 @@ var projectData =
     "projectNum": "7",
     "projectName": "URS",
     "projectWork": "APP UI / IoT Gam",
-    "projectSliderPicTotal": 5,
+    "projectSliderPicTotal": 3,
     "projectFirstImage": "images/URSPic01.png",
-    "sliderPicArray": ['images/URSPic01.png', 'images/URSPic02.png', 'images/URSPic03.png', 'images/URSPic04.png', 'images/URSPic05.png'],
-    "projectDescription": "",
-    "porjectSkill": "Skill: ",
+    "sliderPicArray": ['images/URSPic01.png', 'images/URSPic02.png', 'images/URSPic03.png'],
+    "projectDescription": "This project is two mobile games with iBeacon technology. User could walk and stop in the space area, then use their mobile to interact the different iBeacon device in the location.In this project, I have to design the game flow and game UI, and code in javascript to complete the commucation between mobile bluetooth and iBeacon device. There are two themes that one is about running, and the other is the festival game.",
+    "porjectSkill": "Skill: Illustration, Photoshop, HTML5, CSS3, Javascript",
     "onlineLink": "",
     "onlineLinkTitle": "",
     "linkDomain": "",
@@ -260,7 +260,7 @@ function projectShow(k) {
   $(".imgProjectRWD").show();
   $(".imgProjectRWD").css("background-image","url("+projectData[currentSlider].projectFirstImage+")");
   
-  openDesArea();
+  // openDesArea();
 
   $(".projectTitleText").html(projectData[currentSlider].projectName);
   $(".projectWorkText").html(projectData[currentSlider].projectWork);
@@ -291,6 +291,8 @@ function openProjectOnlineTab02(url) {
 function closeProjectShow() {
   console.log("close project show");
   console.log("print currentSlider="+currentSlider);
+  
+  closeDesArea();
 
   $(".maskProjectShow").css("display","none");
   $(".projectShowSection").css("display","none");

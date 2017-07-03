@@ -644,11 +644,11 @@ portfolio section
 }
 
 #closeDownBtn {
-  display: block;
+  display: none;
 }
 
 #openUpBtn {
-  display: none;
+  display: block;
 }
 
 .projectTextArea {
